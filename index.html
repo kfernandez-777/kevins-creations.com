@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kevin's Creations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/659acba936.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/main-responsive.css">
+</head>
+<body>
+    <header> 
+         
+            <a href="index.html" class="logo"> 
+            <!-- <img src="img/logo-kevin'sCreations.png" alt="Kevin's Creations Logo"> -->
+             Kevin's Creations</a>
+
+             <!-- <ul> <a href="#" class="activeButton">  <button>Contact Me  </button></a></ul> -->
+             <ul id="activeButton"><a href="#" id="ButtonType">Contact Me</a></ul>
+        <nav>
+            <ol>
+                
+                <li> <a href="/index.html" class="active">Home</a> </li>
+                <li><a href="/gallery.html" >Works</a></li>
+                <li><a href="/services.html" >Services</a></li>
+                <li><a href="/profile.html" >about</a></li>
+            </ol>
+            <div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <ol class="links">
+                    <li><a href="/index.html"> Home</a></li>
+                    <li><a href="/gallery.html"> Works</a></li>
+                    <li><a href="/services.html"> Services</a></li>
+                    <li><a href="/profile.html"> About</a></li>
+                </ol>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                    
+                
+            </div>
+
+        </nav>
+    </header>
+
+
+            <section class="home">
+     
+                <div class="homeImg">
+                    <img src="img/Redlogo-kevin'sCreations.png"  alt="Kevin's Creations Logo">
+                </div>
+                <div class="homeContent">
+                    <h1> Hey, it's <span id="hoverName">Kevin</span></h1>
+                    <div class="Social-icons">
+                        <a href="https://www.instagram.com/pixel_pikasso/"> <i class="fa-brands fa-instagram" style="color: #c52f41;"></i></a>
+                        <a href="https://www.linkedin.com/in/kevin-fernandez-24b3792a8"> <i class="fa-brands fa-linkedin" style="color: #c52f41;"></i></a>
+                    </div>
+                </div>
+            </section>
+    
+    <main id="homeprofile">
+            <section class="homeProjects">
+                <!-- <h2> <a href="/gallery.html" class=" workNotAnimated">Works</a></h2> -->
+                <h2> <a href="/gallery.html" class=" workContent">Works</a></h2>
+                <div class="imgcontentProject">
+                    <img src="img/Table_DisplayWall_View1.jpg" alt="TableDisplayAkiroProject">
+                    <img src="img/kfernandez-Mockup-MoviePoster-V2.jpg" alt="MoviePosterMockupPoster">
+                </div>
+                
+            </section>
+            <section class="aboutMe">
+                <div class="aboutMeContent">
+                    <h2>Profile</h2>
+                    <p>The passion to push past the modern boundaries of artistry, and as both 
+                        an introverted and extroverted person I like being dynamic from going to car meets
+                        and conventions to the stay at home gamer guy and binge watcher anything thats fun and 
+                        engaging. 
+                    </p>
+                </div>
+                <img  src="img/profile.jpg" alt="Kevin's Profile Picture">
+            </section>  
+                
+    </main>
+    <footer>
+    <ul>&copy;Kevin's Creations</ul>
+       <ol class="footContent">
+                <li id="footActiveButton"><a href="#" id="FootbuttonContent">Contact Me</a></li> 
+                <li> <a href="#"> <i class="fa-brands fa-instagram"></i></a></li>
+                <li> <a href="#"> <i class="fa-brands fa-linkedin"></i></a></li>
+        </ol>
+    </footer>
+    <script src="/js/app.js"></script> 
+</body>
+</html>
