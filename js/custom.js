@@ -1,2 +1,0 @@
-//initialize AOS Animation 
-
